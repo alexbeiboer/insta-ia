@@ -28,6 +28,6 @@ def display_data():
     print (top_likers)
     # #analyse metrics
     Instagram_Data_Analysis.analyze_metrics(post_objects)
-    #full_filename = os.path.join(app.config['UPLOAD_FOLDER'], '/Users/2020shatgiskessell/Documents/Data_Conv2d8839/app/images/likes_months.png')
+    #full_filename = os.path.join(app.config['UPLOAD_FOLDER'], '/Users/2020abeiboer/Documents/Data_Conv2d8839/app/images/likes_months.png')
     return render_template('display_data.html', output_filepath = "../static/likes_months.png", avg_likes = "Mean number of likes: " + str(int(mean_likes)), top_likers = top_likers)
     #return render_template('display_data.html')

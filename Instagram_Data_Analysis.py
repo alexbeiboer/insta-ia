@@ -59,12 +59,12 @@ def analyze_metrics(post_objects):
     # lines = df.plot.line()
     # # lines = df.plot.line(x=months, y=likess)
     # fig = lines.get_figure()
-    # fig.savefig('/Users/2020shatgiskessell/Documents/Data_Conv2d8839/app/images/likes_months.png')
+    # fig.savefig('/Users/2020abeiboer/Documents/Data_Conv2d8839/app/images/likes_months.png')
 
     # fig = plt.figure()
     # plt.plot(likess, 'r')
     # plt.plot(months, 'g')
-    # fig.savefig('/Users/2020shatgiskessell/Documents/Data_Conv2d8839/app/images/likes_months.png')
+    # fig.savefig('/Users/2020abeiboer/Documents/Data_Conv2d8839/app/images/likes_months.png')
 
 def get_metrics (posts):
     likes = []
